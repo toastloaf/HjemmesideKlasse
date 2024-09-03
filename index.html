@@ -31,4 +31,17 @@
     <p style="margin-left: 20px; float:left;">Laget av Laszlo Jørgenvåg📎</p>
     <p style="margin-right: 20px; margin-top: 10px; text-align: right; font-size: 150%;"><a href="contact.html">Kontakt Oss</a></p>
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        var scrollpos = sessionStorage.getItem('scrollpos');
+        if (scrollpos) {
+            window.scrollTo(0, scrollpos);
+            sessionStorage.removeItem('scrollpos');
+        }
+    });
+
+    window.addEventListener("beforeunload", function (e) {
+        sessionStorage.setItem('scrollpos', window.scrollY);
+    });
+</script>
 </html>
