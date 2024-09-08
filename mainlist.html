@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YFF</title>
+    <link rel="stylesheet" href="assets/stylesheet.css">
+</head>
+<body style="overflow-y: hidden;">
+    <div style="display: inline-flex;">
+        <p style="margin-top: 2vw;"><a href="index.html" id="linkbuttonback">< Tilbake</a></p>
+        <p style="margin-top: 2vw;"><a href="#" id="linkbuttonpar" onclick="changeIframeSrc('utvikling.html')">Utvikling</a></p>
+        <p style="margin-top: 2vw;"><a href="#" id="linkbuttonpar" onclick="changeIframeSrc('brukerstotte.html')">Brukerstøtte</a></p>
+        <p style="margin-top: 2vw;"><a href="#" id="linkbuttonpar" onclick="changeIframeSrc('drifstotte.html')">Driftstøtte</a></p>
+    </div>
+    <iframe id="contentFrame" src="utvikling.html" frameborder="0" style="width: 100%; height: 100vh; margin-top: 2vw;"></iframe>
+
+    <script>
+        function changeIframeSrc(newSrc) {
+            document.getElementById('contentFrame').src = newSrc;
+        }
+    </script>
+</body>
+</html>
