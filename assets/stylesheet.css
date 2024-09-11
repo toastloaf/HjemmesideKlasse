@@ -47,10 +47,10 @@ a {
     border-radius: 40px;
     display: inline-block;
     /* background-color: #4e3737; */
-    padding-right: 780px;
-    padding-bottom: 270px;
-    margin-left: 40px;
-    margin-top: 40px;
+    padding-right: 40vw;
+    padding-bottom: 14vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
     /* box-shadow: 5px 10px 12px #101010; */
 }
 #par1 {
