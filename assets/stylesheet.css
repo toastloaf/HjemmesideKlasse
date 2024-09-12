@@ -49,6 +49,7 @@ a {
     /* background-color: #4e3737; */
     padding-right: 40vw;
     padding-bottom: 14vw;
+    padding-top: 10vw;
     margin-left: 2vw;
     margin-top: 2vw;
     /* box-shadow: 5px 10px 12px #101010; */
@@ -127,4 +128,20 @@ a {
     border: 4px solid #2b2c36;
     border-radius: 20px;
     padding: 10px;
+}
+
+#torstenpic {
+    scale: 200%;
+    margin-top: -6vw;
+    border-radius: 10%;
+    margin-left: 17vw;
+    position: absolute;
+}
+
+#torstenpic2 {
+    scale: 155%;
+    margin-top: -6.5vw;
+    border-radius: 10%;
+    margin-left: 17vw;
+    position: absolute;
 }
